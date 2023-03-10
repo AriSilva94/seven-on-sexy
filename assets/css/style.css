@@ -1,0 +1,79 @@
+body {
+  /* overflow-x: hidden !important; */
+  color: #fff !important;
+  font-family: "Poppins", Sans-serif !important;
+}
+
+/* main {
+  background-color: transparent !important;
+  background-image: radial-gradient(
+    at center right,
+    #000000 0%,
+    #971e30 55%
+  ) !important;
+} */
+
+h2 {
+  font-weight: 400 !important;
+  font-size: 22px !important;
+  line-height: 1em !important;
+}
+
+p {
+  font-weight: 300 !important;
+}
+
+.card {
+  color: #fff !important;
+  background-color: #971e30 !important;
+  box-shadow: 0px 0px 10px 3px rgb(0 0 0 / 50%) !important;
+}
+
+.price-table {
+  color: #000;
+  background-color: #fff;
+}
+
+.page-background-color {
+  background-color: #971e30;
+  /* background-image: radial-gradient(
+    at bottom right,
+    #000000 0%,
+    #971e30 55%
+  ) !important; */
+}
+
+.btn-primary {
+  color: #fff !important;
+  background-color: #971e30 !important;
+  border-color: #971e30 !important;
+  box-shadow: 0px 0px 10px 3px rgb(0 0 0 / 50%);
+}
+
+.carousel-image {
+  background: no-repeat 50%;
+  background-size: cover;
+  height: 100%;
+  position: relative;
+}
+
+.icon-green {
+  color: #61ce70 !important;
+}
+
+.btn-success {
+  background-color: #61ce70 !important;
+  border-color: #198754 !important;
+
+  transition: all 0.15s ease-in !important;
+  -webkit-transition: transition 300ms ease-in 0s; /* For Safari 3.0+ */
+  transition: transition 300ms ease-in 0s; /* Standard syntax */
+}
+
+.btn-success:hover {
+  transform: scale(1.15) !important;
+}
+
+span {
+  font-size: 0.9rem !important;
+}
