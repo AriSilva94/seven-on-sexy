@@ -1,17 +1,8 @@
 body {
-  /* overflow-x: hidden !important; */
+  overflow-x: hidden;
   color: #fff !important;
   font-family: "Poppins", Sans-serif !important;
 }
-
-/* main {
-  background-color: transparent !important;
-  background-image: radial-gradient(
-    at center right,
-    #000000 0%,
-    #971e30 55%
-  ) !important;
-} */
 
 h2 {
   font-weight: 400 !important;
@@ -31,6 +22,25 @@ p {
   font-weight: 300 !important;
 }
 
+a[aria-expanded="true"] .bi-chevron-left {
+  display: none;
+}
+a[aria-expanded="false"] .bi-chevron-down {
+  display: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+span {
+  font-size: 0.9rem !important;
+}
+
+.italic {
+  font-style: italic;
+}
+
 .card {
   color: #fff !important;
   background-color: #971e30 !important;
@@ -44,11 +54,11 @@ p {
 
 .page-background-color {
   background-color: #971e30;
-  /* background-image: radial-gradient(
+  background-image: radial-gradient(
     at bottom right,
     #000000 0%,
     #971e30 55%
-  ) !important; */
+  ) !important;
 }
 
 .btn-primary {
@@ -89,30 +99,11 @@ p {
   transform: rotate(90deg);
 }
 
-span {
-  font-size: 0.9rem !important;
-}
-
-.italic {
-  font-style: italic;
-}
-
-a[aria-expanded="true"] .bi-chevron-left {
-  display: none;
-}
-a[aria-expanded="false"] .bi-chevron-down {
-  display: none;
-}
-
 .bi-chevron-left {
   color: #fff !important;
 }
 .bi-chevron-down {
   color: #fff !important;
-}
-
-a {
-  text-decoration: none !important;
 }
 
 .highlight-text {
