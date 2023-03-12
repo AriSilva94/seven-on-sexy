@@ -119,9 +119,6 @@ a {
   text-decoration: underline;
 }
 
-.card {
-  box-shadow: none !important;
-}
 .card-body {
   background-color: #fff !important;
   border: px solid #971e30 !important;
