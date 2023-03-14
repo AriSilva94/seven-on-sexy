@@ -9,8 +9,8 @@ body {
 }
 
 h2 {
-  font-weight: 400 !important;
-  font-size: 22px !important;
+  font-weight: 700 !important;
+  font-size: 28px !important;
   line-height: 1em !important;
 }
 
@@ -41,6 +41,10 @@ span {
   font-size: 0.9rem !important;
 }
 
+video {
+  width: 75% !important;
+}
+
 .italic {
   font-style: italic;
 }
@@ -54,6 +58,15 @@ span {
 .price-table {
   color: #000;
   background-color: #fff;
+  /* height: 700px;
+  max-height: 1000px; */
+}
+
+@media (min-width: 767px) {
+  .price-table {
+    height: auto !important;
+    max-height: 1000px !important;
+  }
 }
 
 .page-background-color {
