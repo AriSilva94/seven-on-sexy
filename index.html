@@ -27,6 +27,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
     />
+    <script defer src="assets/js/app.js"></script>
     <title>Personalizar:Xbot--Gerencidador de Comunidades</title>
   </head>
   <body>
@@ -224,7 +225,7 @@
               class="pt-2 pb-5 col-12 d-flex flex-column align-items-center justify-content-center col-12 d-flex flex-column align-items-center justify-content-center"
             >
               <i class="bi bi-star-fill" style="font-size: 50px"></i>
-              <h3 class="text-center">7 diferenciais!</h3>
+              <h3 class="text-center hidden">7 diferenciais!</h3>
             </div>
           </div>
         </div>
@@ -236,8 +237,8 @@
               class="py-3 col-12 col-md-3 d-flex flex-column align-items-center justify-content-center"
             >
               <i class="bi bi-send-fill" style="font-size: 50px"></i>
-              <h3 class="pb-3 text-center">Disparo de mensagens</h3>
-              <p class="text-center sub-title">
+              <h3 class="pb-3 text-center hidden">Disparo de mensagens</h3>
+              <p class="text-center sub-title hidden">
                 Envie uma mensagem em massa (texto, imagem, vídeo ou áudio) para
                 todos que clicarem no seu bot, mas que ainda não assinaram seu
                 VIP.
@@ -247,8 +248,10 @@
               class="py-3 col-12 col-md-3 d-flex flex-column align-items-center justify-content-center"
             >
               <i class="bi bi-cash" style="font-size: 50px"></i>
-              <h3 class="pb-3 text-center">Renovação de assinatura no PIX</h3>
-              <p class="text-center sub-title">
+              <h3 class="pb-3 text-center hidden">
+                Renovação de assinatura no PIX
+              </h3>
+              <p class="text-center sub-title hidden">
                 5 dias antes de encerrar o acesso contratado, o seu assinante
                 recebe mensagem do bot convidando para renovar o acesso
               </p>
@@ -257,8 +260,8 @@
               class="py-3 col-12 col-md-3 d-flex flex-column align-items-center justify-content-center"
             >
               <i class="bi bi-currency-dollar" style="font-size: 50px"></i>
-              <h2 class="pb-3 text-center">Pagamentos automatizados</h2>
-              <p class="text-center sub-title">
+              <h2 class="pb-3 text-center hidden">Pagamentos automatizados</h2>
+              <p class="text-center sub-title hidden">
                 Você recebe seus pagamentos direto na sua conta, sem precisar
                 solicitar saque. As vendas no PIX você recebe em até 2 dias
                 úteis, já no cartão de crédito em 30 dias.
@@ -268,8 +271,8 @@
               class="py-3 col-12 col-md-3 d-flex flex-column align-items-center justify-content-center"
             >
               <i class="bi bi-headset" style="font-size: 50px"></i>
-              <h3 class="pb-3 text-center">Suporte</h3>
-              <p class="text-center sub-title">
+              <h3 class="pb-3 text-center hidden">Suporte</h3>
+              <p class="text-center sub-title hidden">
                 Nossa equipe de suporte trabalha de domingo a domingo, para que
                 você possa ficar tranquilo e todas suas dúvidas sejam sanadas
                 imediatamente.
@@ -279,8 +282,8 @@
               class="py-3 col-12 col-md-3 d-flex flex-column align-items-center justify-content-center"
             >
               <i class="bi bi-card-list" style="font-size: 50px"></i>
-              <h3 class="pb-3 text-center">Split de pagamentos</h3>
-              <p class="text-center sub-title">
+              <h3 class="pb-3 text-center hidden">Split de pagamentos</h3>
+              <p class="text-center sub-title hidden">
                 Você poderá dividir com até 10 pessoas da sua equipe ou
                 coprodutores, as vendas das assinaturas. Divisão e pagamentos
                 automatizados.
@@ -290,8 +293,8 @@
               class="py-3 col-12 col-md-3 d-flex flex-column align-items-center justify-content-center"
             >
               <i class="bi bi-flower1" style="font-size: 50px"></i>
-              <h3 class="pb-3 text-center">Canal de dicas e network</h3>
-              <p class="text-center sub-title">
+              <h3 class="pb-3 text-center hidden">Canal de dicas e network</h3>
+              <p class="text-center sub-title hidden">
                 Em ambos os planos, você terá acesso a um canal exclusivo das
                 modelos. Terá acesso a dicas, estratégias e poderá vender/trocar
                 divulgações com outras modelos do time
@@ -301,8 +304,10 @@
               class="py-3 col-12 col-md-3 d-flex flex-column align-items-center justify-content-center"
             >
               <i class="bi bi-person-fill-check" style="font-size: 50px"></i>
-              <h3 class="pb-3 text-center">ADM nos canais da 7 On Sexy</h3>
-              <p class="text-center sub-title">
+              <h3 class="pb-3 text-center hidden">
+                ADM nos canais da 7 On Sexy
+              </h3>
+              <p class="text-center sub-title hidden">
                 Em ambos os planos, você terá acesso a um canal exclusivo das
                 modelos. Terá acesso a dicas, estratégias e poderá vender/trocar
                 divulgações com outras modelos do time
@@ -325,8 +330,9 @@
             >
               <div class="py-2 col-12 col-md-5">
                 <div
-                  class="pt-3 rounded-5 card col-auto d-flex flex-column align-items-center justify-content-center"
+                  class="position-relative pt-3 rounded-5 card col-auto d-flex flex-column align-items-center justify-content-center"
                 >
+                  <div class="position-absolute tag p-1">Modelos</div>
                   <h3>Plano Start</h3>
                   <p class="text-center">Exclusivo para modelos</p>
                   <div
@@ -379,7 +385,7 @@
                       Taxa de 20% + R$ 0,99 por assinatura
                     </p>
                     <div
-                      class="pt-5 col-auto d-flex flex-column align-items-center justify-content-center"
+                      class="pt-4 col-auto d-flex flex-column align-items-center justify-content-center"
                     >
                       <a
                         class="btn btn-success btn-lg rounded-5"
@@ -394,8 +400,9 @@
               </div>
               <div class="py-2 col-12 col-md-5">
                 <div
-                  class="pt-3 rounded-5 card col-auto d-flex flex-column align-items-center justify-content-center"
+                  class="position-relative pt-3 rounded-5 card col-auto d-flex flex-column align-items-center justify-content-center"
                 >
+                  <div class="position-absolute tag p-1">Agências</div>
                   <h3>Plano Pro</h3>
                   <p class="text-center">Exclusivo para agências</p>
                   <div
@@ -406,7 +413,7 @@
                     "
                   >
                     <h3>R$ 997<span>00</span></h3>
-                    <h3>Investimento único</h3>
+                    <h3 class="py-1">Investimento único</h3>
                     <p class="px-1 text-start w-100">
                       <i class="px-2 bi bi-check-circle-fill icon-green"></i>
                       Sistema de pagamentos e automações completas para sua

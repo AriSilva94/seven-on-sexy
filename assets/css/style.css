@@ -1,3 +1,22 @@
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+@media (prefers-reduced-motion) {
+  .hidden {
+    transition: none;
+  }
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
 html {
   overflow-x: hidden !important;
 }
@@ -24,6 +43,39 @@ h6 {
 
 p {
   font-weight: 300 !important;
+}
+
+.tag {
+  background-color: #61ce70;
+  text-align: center;
+  top: 19px !important;
+  right: -35px !important;
+  transform: rotate(43deg);
+  width: 145px !important;
+  -webkit-clip-path: polygon(
+    25% 0,
+    0 105%,
+    100% 100%,
+    96% 100%,
+    75% 0
+  ) !important;
+  clip-path: polygon(25% 0, 0 108%, 100% 100%, 96% 100%, 75% 0) !important;
+}
+
+@media (min-width: 1200px) {
+  .tag {
+    top: 22px !important;
+    right: -39px !important;
+    width: 155px !important;
+    -webkit-clip-path: polygon(
+      25% 0,
+      0 109%,
+      100% 100%,
+      95% 100%,
+      75% 0
+    ) !important;
+    clip-path: polygon(24% 0, 0 109%, 100% 100%, 94% 100%, 74% 0) !important;
+  }
 }
 
 .sub-title {
