@@ -49,33 +49,33 @@ p {
   background-color: #61ce70;
   border: 2px solid #000;
   text-align: center;
-  top: 15px !important;
-  right: -35px !important;
+  top: 14px !important;
+  right: -32px !important;
   transform: rotate(43deg);
-  width: 145px !important;
+  width: 140px !important;
   -webkit-clip-path: polygon(
     30% 0,
     0 108%,
     100% 100%,
-    98% 100%,
+    99% 100%,
     75% 0
   ) !important;
-  clip-path: polygon(30% 0, 0 108%, 100% 100%, 98% 100%, 75% 0) !important;
+  clip-path: polygon(30% 0, 0 108%, 100% 100%, 99% 100%, 75% 0) !important;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1023px) {
   .tag {
     top: 18px !important;
-    right: -38px !important;
-    width: 155px !important;
+    right: -37px !important;
+    width: 151px !important;
     -webkit-clip-path: polygon(
-      27% 0,
+      28% 0,
       0 109%,
       100% 100%,
       96% 100%,
       74% 0
     ) !important;
-    clip-path: polygon(27% 0, 0 109%, 100% 100%, 96% 100%, 74% 0) !important;
+    clip-path: polygon(28% 0, 0 109%, 100% 100%, 96% 100%, 74% 0) !important;
   }
 }
 
