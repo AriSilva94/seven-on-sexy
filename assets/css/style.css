@@ -54,13 +54,13 @@ p {
   transform: rotate(43deg);
   width: 145px !important;
   -webkit-clip-path: polygon(
-    25% 0,
-    0 105%,
+    30% 0,
+    0 108%,
     100% 100%,
-    96% 100%,
+    98% 100%,
     75% 0
   ) !important;
-  clip-path: polygon(29% 0, 0 108%, 100% 100%, 98% 100%, 75% 0) !important;
+  clip-path: polygon(30% 0, 0 108%, 100% 100%, 98% 100%, 75% 0) !important;
 }
 
 @media (min-width: 1200px) {
@@ -69,11 +69,11 @@ p {
     right: -38px !important;
     width: 155px !important;
     -webkit-clip-path: polygon(
-      25% 0,
+      27% 0,
       0 109%,
       100% 100%,
-      95% 100%,
-      75% 0
+      96% 100%,
+      74% 0
     ) !important;
     clip-path: polygon(27% 0, 0 109%, 100% 100%, 96% 100%, 74% 0) !important;
   }
